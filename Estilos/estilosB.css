@@ -1,0 +1,122 @@
+.fondo{
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+}
+
+.cabeceraI{
+    width: 1366px;
+    height: 100px;
+}
+
+.icon{
+    position:absolute;
+    width: 25px;
+    height: 35px;
+    left:15px;
+    top: 30px;
+
+}
+
+.Cuadrado{
+    width: 1200px;
+    height: 250px;
+    background-color: #e76060;
+    position: absolute;
+    top: 204px;
+    left: 86px;
+}
+
+
+
+
+
+
+
+
+
+
+.tituloC{
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.regresarA{
+    background-color: #aa0606;
+    border-color: #aa0606;
+    border: 0;
+    position: absolute;
+    top: 40px;
+    right: 110px;
+
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 17px;
+    font-weight:inherit;
+
+}
+
+.regresarA:hover{
+    color: black;
+}
+
+.articulos{
+    background-color: #aa0606;
+    border-color: #aa0606;
+    border: 0;
+    position: absolute;
+    top: 40px;
+    right: 25px;
+
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 17px;
+    font-weight:inherit;
+
+}
+
+.articulos:hover{
+    color: black;
+}
+
+.textContac{
+    font-family: 'PT Mono', monospace;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 260px;
+    left: 340px;
+}
+
+.redes{
+    color: white;
+    font-family: 'PT Mono', monospace;
+}
+
+#numero{
+    position: absolute;
+    top: 230px;
+    right: 373px;
+}
+
+#facebook{
+    position: absolute;
+    top: 275px;
+    right: 376px;
+}
+
+#insta{
+    position: absolute;
+    top: 325px;
+    right: 372px;
+}
+
+#tw{
+    position: absolute;
+    top: 375px;
+    right: 348px;
+}

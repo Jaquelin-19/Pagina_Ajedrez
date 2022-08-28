@@ -1,0 +1,331 @@
+/*imagenes*/
+
+.fondo{
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+}
+
+.fondo2{
+    position:absolute;
+    top: 425px;
+    width: 100%;
+    height:1590px;
+}
+
+.cabeceraI{
+    width: 1349px;
+    height: 100px;
+}
+
+.icon{
+    position:absolute;
+    width: 25px;
+    height: 35px;
+    left:15px;
+    top: 30px;
+
+}
+
+.piezas{
+    width: 645px;
+    height: 80px;
+    position: absolute;
+    left: 20px;
+    top: 300px;
+}
+
+.piezas1{
+    width: 648px;
+    height: 80px;
+    position: absolute;
+    left: 656px;
+    top: 300px;
+}
+
+.Cuadrado1{
+    width: 100px;
+    height: 10px;
+    background-color:darkred;
+    position: absolute;
+    left: 25px;
+    top: 410px;
+}
+
+.Cuadrado{
+    width: 400px;
+    height: 375px;
+    background-color:rgb(226, 7, 7);
+    position: absolute;
+    right: 60px;
+    top: 480px;
+}
+
+.imgTA{
+    position: absolute;
+    width: 280px;
+    height: 140px;
+    top: 690px;
+    right: 120px;
+}
+
+.img1{
+    position: absolute;
+    width: 280px;
+    height: 140px;
+    top: 1510px;
+    left: 200px;
+}
+
+.img2{
+    position: absolute;
+    width: 280px;
+    height: 140px;
+    top: 1870px;
+    left: 200px;
+}
+
+.img3{
+    position: absolute;
+    width: 265px;
+    height: 135px;
+    top: 1510px;
+    right: 230px;
+}
+
+.img4{
+    position: absolute;
+    width: 270px;
+    height: 140px;
+    top: 1870px;
+    right: 225px;
+}
+
+
+
+
+
+
+/* Información */
+
+
+
+
+.cabecera{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.tituloC{
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.titulo{
+    font-size: 45px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.titulo2{
+    font-size: 40px;
+    color:rgb(170, 12, 12);
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+
+.subIA{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 450px;
+    left: 75px;
+    right: 500px;
+}
+
+
+.defIA{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 505px;
+    left: 75px;
+    right: 500px;
+}
+
+.defAz{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 14px;
+    color: rgb(252, 249, 249);
+    text-align: justify;
+    position: absolute;
+    top: 480px;
+    left: 905px;
+    right: 77px;
+}
+
+.paf1{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 253, 253);
+    text-align: justify;
+    position: absolute;
+    top: 1000px;
+    left: 75px;
+    right: 75px;
+}
+
+.blog{
+    background-color: #aa0606;
+    border-color: #aa0606;
+    border: 0;
+    position: absolute;
+    top: 40px;
+    right: 25px;
+
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 17px;
+    font-weight:inherit;
+
+}
+
+.blog:hover{
+    color: black;
+}
+
+.articulos{
+    background-color: #aa0606;
+    border-color: #aa0606;
+    border: 0;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 17px;
+    font-weight:inherit;
+
+}
+
+.articulos:hover{
+    color: black;
+}
+
+.sub2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 780px;
+    left: 75px;
+    right: 500px;
+}
+
+.text2{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 860px;
+    left: 75px;
+    right: 78px;
+}
+
+.sub3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    position: absolute;
+    top: 1240px;
+    left: 75px;
+}
+
+.nombresMA{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    color: rgb(54, 4, 236);
+    text-align: justify;
+}
+
+#uno{
+    position: absolute;
+    top: 1300px;
+    left: 110px;
+}
+
+#dos{
+    position: absolute;
+    top: 1645px;
+    left: 110px;
+}
+
+#tres{
+    position: absolute;
+    top: 1300px;
+    left: 742px;
+}
+
+#cuatro{
+    position: absolute;
+    top: 1645px;
+    left: 742px;
+}
+
+.text3{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+#tuno{
+    position: absolute;
+    top: 1330px;
+    left: 150px;
+    right: 800px;
+}
+
+#tdos{
+    position: absolute;
+    top: 1675px;
+    left: 150px;
+    right: 800px;
+}
+
+#ttres{
+    position: absolute;
+    top: 1330px;
+    left: 780px;
+    right: 150px;
+}
+
+#tcuatro{
+    position: absolute;
+    top: 1675px;
+    left: 780px;
+    right: 150px;
+}

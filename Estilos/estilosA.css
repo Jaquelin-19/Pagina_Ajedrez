@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 74, 74);
+}
+
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+}
+.mov{
+    width: 100%;
+    display: flex;
+}
+
+.contenido{
+    width: 100%;
+    height: 625px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.contenido:nth-child(2){
+    background:rgb(236, 233, 233);
+}
+
+.contenido:nth-child(3){
+    background:rgb(10, 121, 248);
+}
+
+.img{
+    width: 300px;
+    position: absolute;
+    top: 150px;
+    right: 180px;
+
+}
+
+.text{
+    width: 40%;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+}
+
+#dos{
+    width: 45%;
+    top: 160px;
+    left: 1530px;
+
+}
+
+#idos{
+    left: 2270px;
+}
+
+#tres{
+    width: 45%;
+    top: 145px;
+    left: 2900px;
+
+}
+
+#itres{
+    left: 3660px;
+}
+
+.curso{
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 6px;
+    width: 280px;
+    height: 35px;
+    position: absolute;
+
+    color: rgb(255, 255, 255);
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    font-weight:inherit;
+}
+
+.curso:hover{
+    background-color: white;
+    color: #000000;
+}
+
+#boton1{
+    top: 410px;
+    left: 420px;
+}
+
+#boton2{
+    top: 460px;
+    left: 1859px;
+}
+
+#boton3{
+    top: 455px;
+    left: 3233px;
+}
+
+.inicio{
+    background-color: #00000000;
+    border-color: #00000000;
+    border-radius: 6px;
+    position: absolute;
+    top: 10px;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight:inherit;
+}
+
+.inicio:hover{
+    color: white;
+}
+
+#inic1{
+    right: 20px;
+}
+
+#inic2{
+    left: 2675px;
+}
+
+#inic3{
+    left: 4040px;
+}
